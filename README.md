@@ -70,6 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
-# uniqueglobalexports_frontend
-static website
->>>>>>> ae18a51b92944d7fac2cb5aa615aacee9b478740
+# my_portfolio
+new template for portfolio updated code
+>>>>>>> 5d9ce9fdde932cea13b5150278ca74c327f6b1c0
