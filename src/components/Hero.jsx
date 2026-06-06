@@ -1,7 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-// import profileImg from "../assets/profile.jpg";
-import profileImg from "../assets/danalock.jpg";
+import profileImg from "../assets/profile.jpg";
+// import profileImg from "../assets/danalock.jpg";
 import "../styles/Hero.css";
 
 const Hero = () => {
@@ -74,7 +74,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1wacxzC-6fe7C4i73P8eFNjX6TUie8ZgL/view?usp=drivesdk"
             target="_blank"
             rel="noreferrer"
             className="btn btn-outline"

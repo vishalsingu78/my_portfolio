@@ -32,6 +32,9 @@ const Navbar = ({ theme, setTheme }) => {
           <a href="#projects" onClick={closeMenu}>Projects</a>
         </li>
         <li>
+          <a href="#certifications" onClick={closeMenu}>Certifications</a>
+        </li>
+        <li>
           <a href="#contact" onClick={closeMenu}>Contact</a>
         </li>
 

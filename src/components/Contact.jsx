@@ -1,39 +1,7 @@
-import React, { useState } from "react";
-import emailjs from "@emailjs/browser";
+import React from "react";
 import "../styles/Contact.css";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
-  const [status, setStatus] = useState("");
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      await emailjs.send(
-        "service_fxzak9m",
-        "template_lf7spew",
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          subject: formData.subject,
-          message: formData.message,
-        },
-        "Gh7XgRgg2HAKQOH0f",
-      );
-      setStatus("Message sent successfully!");
-      setFormData({ name: "", email: "", subject: "", message: "" });
-    } catch (error) {
-      console.error(error);
-      setStatus("Failed to send message.");
-    }
-  };
   return (
     <section className="contact" id="contact">
       <div className="contact-container">
@@ -41,8 +9,8 @@ const Contact = () => {
           <h4>Get In Touch</h4>
           <h2>Contact Me</h2>
           <p>
-            Have a project, job opportunity, or collaboration in mind? Feel free
-            to reach out. I'll be happy to connect.
+            Have a project, job opportunity, or collaboration in mind?
+            Feel free to reach out. I'll be happy to connect.
           </p>
         </div>
 
@@ -50,23 +18,47 @@ const Contact = () => {
           <div className="contact-card">
             <h3>Let's Connect</h3>
 
+            <div className="availability">
+              <span>🟢 Available for Opportunities</span>
+            </div>
+
             <div className="contact-info">
               <div className="contact-item">
                 <span>📧</span>
-                <a href="mailto:singuvishal123@gmail.com">
-                  singuvishal123@gmail.com
+                <a href="mailto:singuvishal77@gmail.com">
+                  singuvishal77@gmail.com
                 </a>
               </div>
 
               <div className="contact-item">
                 <span>📱</span>
-                <a href="tel:+919959582504">+91 9959582504</a>
+                <a href="tel:+919959582504">
+                  +91 9959582504
+                </a>
               </div>
 
               <div className="contact-item">
                 <span>📍</span>
                 <p>Hyderabad, Telangana, India</p>
               </div>
+
+              <div className="contact-item">
+                <span>💼</span>
+                <p>Full Stack Developer</p>
+              </div>
+
+              <div className="contact-item">
+                <span>⚡</span>
+                <p>Java • React.js • Node.js • PostgreSQL</p>
+              </div>
+            </div>
+
+            <div className="contact-cta">
+              <p>
+                Looking for a developer to build modern web applications,
+                optimize existing systems, or collaborate on innovative ideas?
+                Let's create something impactful together.
+              </p>
             </div>
 
             <div className="social-links">
@@ -87,33 +79,6 @@ const Contact = () => {
               </a>
             </div>
           </div>
-
-          <form
-            className="contact-form"
-            action="https://formsubmit.co/your-email@example.com"
-            method="POST"
-          >
-            <h3>Fill your Quote</h3>
-            <input type="text" name="name" placeholder="Your Name" required />
-
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-            />
-
-            <input type="text" name="subject" placeholder="Subject" required />
-
-            <textarea
-              name="message"
-              rows="6"
-              placeholder="Your Message"
-              required
-            ></textarea>
-
-            <button type="submit">Send Message</button>
-          </form>
         </div>
       </div>
     </section>

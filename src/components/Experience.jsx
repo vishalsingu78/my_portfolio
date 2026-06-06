@@ -6,7 +6,7 @@ const Experience = () => {
     {
       company: "Srifin Credit Pvt Ltd",
       role: "Full Stack Developer",
-      duration: "Feb 2025 - Present",
+      duration: "Mar 2025 - Present",
       description: [
         "Developed and maintained enterprise-level fintech applications using Java, React.js, Node.js, and PostgreSQL.",
         "Designed and implemented Asset Management System (AMS) to manage the complete lifecycle of 1,000+ IT assets including procurement, allocation, returns, and depreciation tracking.",

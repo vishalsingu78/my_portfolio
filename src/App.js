@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 import "./styles/App.css";
+import Certifications from "./components/Certifications";
 
 function App() {
   const [theme, setTheme] = useState("dark-theme");
@@ -23,6 +24,7 @@ function App() {
         <Experience />
         <Skills />
         <Projects />
+        <Certifications />
         <Contact />
       </main>
     </div>
