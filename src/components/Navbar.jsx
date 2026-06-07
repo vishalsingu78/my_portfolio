@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../assets/porttap.png";
 import "../styles/Navbar.css";
 
 const Navbar = ({ theme, setTheme }) => {
@@ -11,7 +12,9 @@ const Navbar = ({ theme, setTheme }) => {
     <nav className="navbar">
       {/* Logo */}
       <div className="logo">
-        Portfolio<span>.</span>
+        <img src={logo} alt="Portfolio Logo" className="logo-img" />
+        <span>Portfolio</span>
+        <span>.</span>
       </div>
 
       {/* Nav Links */}
