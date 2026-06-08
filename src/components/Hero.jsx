@@ -74,7 +74,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1wacxzC-6fe7C4i73P8eFNjX6TUie8ZgL/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1wm167yskREtrTXyKOmQ9VJpATNk9uCft/view?usp=drivesdk"
             target="_blank"
             rel="noreferrer"
             className="btn btn-outline"
