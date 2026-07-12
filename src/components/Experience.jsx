@@ -17,11 +17,12 @@ const Experience = () => {
         "Collaborated with cross-functional teams to develop scalable APIs, optimize database performance, and improve application reliability.",
       ],
       tech: [
-        "Java",
         "React.js",
         "Node.js",
+        "Java",
         "PostgreSQL",
-        "Spring Boot",
+        "Express.js",
+        "Athena",
         "GCP",
         "BigQuery",
         "REST APIs",
@@ -29,22 +30,27 @@ const Experience = () => {
       ],
     },
     {
-    company: "",
-    role: "Java J2EE Developer Intern",
-    duration: "Mar 2024 - May 2024",
-    description: [
-      "Developed enterprise Java applications using J2EE (Servlets, JSP, JDBC); gained hands-on exposure to corporate SDLC practices, code review workflows, and Java backend development standards at scale.",
-    ],
-    tech: [
-      "Java",
-      "J2EE",
-      "Servlets",
-      "JSP",
-      "JDBC",
-      "SQL",
-      "Git",
-    ],
-  },
+      company: "Armo TechSolutions Pvt Ltd",
+      role: "Junior Software Engineer",
+      duration: "Jan 2023 - Feb 2025",
+      description: [
+        "Developed and maintained enterprise business applications using Java, React.js, Node.js, Express.js, and PostgreSQL.",
+        "Engineered a Debit Card Distribution Management module to automate the lifecycle from Head Office → Regional Office → Branch → Customer, enabling real-time inventory tracking, allocation, dispatch, and delivery for 4,400+ debit cards while reducing manual tracking efforts by 70%.",
+        "Designed and implemented 5+ operational reports to monitor debit card inventory, dispatch status, pending allocations, and customer delivery, reducing report preparation time by 80% and improving operational visibility.",
+        "Built a multi-stage Customer Call Tracking and Verification Workflow supporting collaboration between Head Office, Telecallers, and Branch Offices, streamlining the verification process for 1,200+ customer records and reducing follow-up delays by 60%.",
+        "Implemented a configurable workflow automation and escalation engine with automated task assignment across organizational levels, reducing manual coordination by 65% and improving turnaround time (TAT) by 40%.",
+        "Designed and implemented Role-Based Access Control (RBAC) supporting 10+ user roles with module-level permissions, reducing unauthorized access risks by 90% and strengthening application security.",
+        "Developed a comprehensive audit trail system to capture workflow transitions, user activities, approvals, and timestamps, ensuring complete traceability and improving operational transparency.",
+        "Created interactive dashboards and 8+ exportable reports to monitor workflow performance, pending tasks, and operational metrics, reducing reporting effort by 75%.",
+        "Contributed to the development of a centralized enterprise platform integrating multiple business modules with shared authentication, role management, and reusable components, reducing duplicate development efforts by 40% and improving maintainability."
+      ],
+       tech: ["Java",
+        "React.js",
+        "Node.js",
+        "PostgreSQL",
+        "REST APIs",
+        "Git",],
+    },
   ];
 
   return (

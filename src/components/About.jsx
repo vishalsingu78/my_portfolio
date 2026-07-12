@@ -11,7 +11,7 @@ const About = () => {
           <h2 className="section-title">About Me</h2>
 
           <p className="about-text">
-            I am a Full Stack Developer with 1.7 years of professional
+            I am a Full Stack Developer with 3+ years of professional
             experience in designing and developing scalable web applications.
             I specialize in building responsive user interfaces using React.js
             and developing robust backend services with Node.js and Express.js.
@@ -44,7 +44,7 @@ const About = () => {
         <div className="about-right">
 
           <div className="about-card">
-            <h3>1.7+</h3>
+            <h3>3+</h3>
             <p>Years Experience</p>
           </div>
 

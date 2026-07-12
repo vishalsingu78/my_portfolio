@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import logo from "../assets/porttap.png";
 import "../styles/Navbar.css";
+import { Link } from "react-router-dom";
+
 
 const Navbar = ({ theme, setTheme }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,9 +14,10 @@ const Navbar = ({ theme, setTheme }) => {
     <nav className="navbar">
       {/* Logo */}
       <div className="logo">
-        <img src={logo} alt="Portfolio Logo" className="logo-img" />
-        <span>Portfolio</span>
-        <span>.</span>
+        <a href="#home" className="logo-link" onClick={closeMenu}>
+          <img src={logo} alt="Portfolio Logo" className="logo-img" />
+          <span>Portfolio.</span>
+        </a>
       </div>
 
       {/* Nav Links */}

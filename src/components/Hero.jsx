@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="hero-content">
         <h3 className="hello-text">Hello, It's Me</h3>
 
-        <h1 className="name">Vishal Singu</h1>
+        <h1 className="name">Singu Vishal</h1>
 
         <h2 className="role">
           I'm a{" "}
@@ -42,7 +42,7 @@ const Hero = () => {
         </h2>
 
         <p className="description">
-          Full Stack Developer with 1.7 years of experience in building
+          Full Stack Developer with 3+ years of experience in building
           responsive web applications, REST APIs, database management,
           authentication systems and modern user interfaces using React.js,
           Node.js, PostgreSQL and JavaScript.
@@ -74,7 +74,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1wm167yskREtrTXyKOmQ9VJpATNk9uCft/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1HUwaqpV5GlBqRVJrwpRSaS0X-uUHboF0/view?usp=drivesdk"
             target="_blank"
             rel="noreferrer"
             className="btn btn-outline"
